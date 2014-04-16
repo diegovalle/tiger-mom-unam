@@ -1363,8 +1363,8 @@ info.onAdd = function (map) {
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
     this._div.innerHTML = '<h4>Minimum COMIPEMS Scores</h4>' +  
-                           'Each point on the map represents a school<br/>or technical carreer' +
-' with the size of the dot<br/>representing the number of students.<br/>'+ 
+                           'Each point on the map represents a school<br/>or technical career' +
+' with the size of each dot<br/>representing the number of students.<br/>'+ 
                           'Filter the schools using the top right widget,<br/>' +
         ' or center on your location using the widget<br/>underneath the zoom controls';
 };
